@@ -5,6 +5,13 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent {
-  title = 'learnAngular';
+displayElement = false;
+
+showDisplay() {
+  this.displayElement = !this.displayElement;
+}
+  // title = 'learnAngular';
+  title = true;
 }
